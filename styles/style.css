@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 15px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    opacity: .85;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(32, 109, 224);
+    padding: 10px 10px 10px 120px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 15px 20px 13px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #a5a5a5;
+    
+  }
+  
+  .nav > .nav-links > a:hover {
+    color: #ffffff;
+    background-color: rgba(32, 109, 224);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  .titulo {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    color: #003172;
+  }
+  .texto-simple{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    color: #a5a5a5;
+}
+.texto-simple-negritas{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    font-weight: bold;
+    color: #003172;
+}
+.texto-simple-mediano-negritas{
+    font-size: 25px;
+    margin-top: 130px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    font-weight: bold;
+    color: #003172;
+}
+.contenedor {
+  opacity: .85;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 130px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    background: linear-gradient(rgb(248, 248, 248) 70%, rgb(201, 201, 201));
+    display:flex;
+    justify-content: space-around;
+  }
+
+.contenido{
+    height:70px;
+    width:15%;
+    float:left;
+    margin: 30px;
+}
+.btn-submit{
+  background-color: rgba(32, 109, 224);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contenido-texto-negritas{
+  font-weight: bold;
+    color: #003172;
+    font-size: 25px;
+}
+.contenido-texto-gris{
+  color: #a5a5a5;
+    font-size: 18px;
+}
+.img-uno{
+  background-image: url("../assets/img/enfermera.jpg");
+   background-size: cover;
+}
+.img-dos{
+  height:180px;
+  background-image: url("../assets/img/logos.png");
+   background-size: cover;
+}
+.titulo-mediano {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  color: #003172;
+}
+.contenedor-simple {
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .contenido-completo{
+    height:200px;
+    width:22%;
+    float:left;
+    margin: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(206, 206, 206);
+    
+}
+.texto-simple-small{
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #a5a5a5;
+}
+.texto-negritas-small{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #003172;
+}
+
+.texto-simple-derecha{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 720px;
+  color: #a5a5a5;
+}
+.titulo-mediano-derecha{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 720px;
+  color: #003172;
+}
+.contenido-small{
+  
+  height:50px;
+  width:32%;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(206, 206, 206);
+  margin-left: 740px;
+  margin-top: 15px;
+  
+}
+.contenido-small-detalles{
+  
+  height:110px;
+  width:32%;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(206, 206, 206);
+  margin-left: 740px;
+  margin-top: 15px;
+}
+.texto-contenido-small-negritas{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #003172;
+  font-weight: bold;
+}
+.texto-contenido-small-simple{
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: #a5a5a5;
+  font-weight: bold;
+}
+.img-tres{
+  background-image: url("../assets/img/enfermera2.jpg");
+   background-size: cover;
+}
+.contenedor-contact {
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 780px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  display:flex;
+  justify-content: space-around;
+}
+.btn-chat{
+  background-color: rgba(32, 109, 224);
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  width:180px;
+}
+.img-cuatro{
+  background-image: url("../assets/img/enfermera3.jpg");
+   background-size: cover;
+}
+footer{
+  background-color: rgb(207, 222, 245);
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  height:300px;
+}
+
+.columna-uno {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+}
+.columna-dos {
+  grid-column: 3;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.columna-tres {
+  grid-column: 4;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.columna-cuatro {
+  grid-column: 5;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.footer-titulo{
+  font-size: 22px;
+  color: rgba(32, 109, 224);
+  font-weight: bold;
+}
+.footer-negritas{
+  font-size: 22px;
+  color: #003172;
+  font-weight: bold;
+}
+.footer-texto{
+  font-size: 12px;
+  color: #a5a5a5;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.columna-cinco {
+  grid-column: 1;
+  grid-row: 3;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.columna-seis {
+  grid-column: 4;
+  grid-row: 3;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.columna-siete {
+  grid-column: 5;
+  grid-row: 3;
+  margin-left: 30px;
+  margin-top: 20px;
+}
